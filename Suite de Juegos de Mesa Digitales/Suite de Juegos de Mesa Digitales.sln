@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suite de Juegos de Mesa Digitales", "Suite de Juegos de Mesa Digitales\Suite de Juegos de Mesa Digitales.csproj", "{192A73ED-E9F7-4FAA-9403-72EB692138D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192A73ED-E9F7-4FAA-9403-72EB692138D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A73ED-E9F7-4FAA-9403-72EB692138D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A73ED-E9F7-4FAA-9403-72EB692138D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A73ED-E9F7-4FAA-9403-72EB692138D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92DE5ACE-5E0E-41C5-AE89-50292BD72DCD}
+	EndGlobalSection
+EndGlobal
