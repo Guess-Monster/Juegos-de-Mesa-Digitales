@@ -36,14 +36,15 @@
             // dgvHistorial
             // 
             dgvHistorial.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvHistorial.Location = new Point(53, 53);
+            dgvHistorial.Location = new Point(25, 76);
             dgvHistorial.Name = "dgvHistorial";
-            dgvHistorial.Size = new Size(328, 264);
+            dgvHistorial.Size = new Size(739, 264);
             dgvHistorial.TabIndex = 0;
+            dgvHistorial.CellContentClick += dgvHistorial_CellContentClick;
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(454, 84);
+            btnActualizar.Location = new Point(368, 369);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(75, 23);
             btnActualizar.TabIndex = 1;
@@ -54,11 +55,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(25, 25, 75);
             ClientSize = new Size(800, 450);
             Controls.Add(btnActualizar);
             Controls.Add(dgvHistorial);
             Name = "FormHistorial";
-            Text = "FormHIstorial";
+            Text = "FormHistorial";
             Load += FormHIstorial_Load;
             ((System.ComponentModel.ISupportInitialize)dgvHistorial).EndInit();
             ResumeLayout(false);

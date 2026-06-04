@@ -17,8 +17,7 @@ namespace Suite_de_Videojuegos.Datos
 
         public MySqlConnection ObtenerConexion()
         {
-            MySqlConnection conexion =
-                new MySqlConnection(conexionString);
+            MySqlConnection conexion = new MySqlConnection(conexionString);
 
             return conexion;
         }

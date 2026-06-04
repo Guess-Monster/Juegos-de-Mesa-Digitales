@@ -33,6 +33,8 @@
             lblResultado = new Label();
             btnReiniciar = new Button();
             lstHistorial = new ListBox();
+            lblMensajeCentral = new Label();
+            lblCoordenadas = new Label();
             SuspendLayout();
             // 
             // tablero
@@ -63,6 +65,7 @@
             // lblTurno
             // 
             lblTurno.AutoSize = true;
+            lblTurno.ForeColor = SystemColors.ButtonFace;
             lblTurno.Location = new Point(702, 64);
             lblTurno.Name = "lblTurno";
             lblTurno.Size = new Size(45, 15);
@@ -72,7 +75,8 @@
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(702, 122);
+            lblResultado.ForeColor = SystemColors.ButtonFace;
+            lblResultado.Location = new Point(702, 105);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(59, 15);
             lblResultado.TabIndex = 2;
@@ -80,7 +84,8 @@
             // 
             // btnReiniciar
             // 
-            btnReiniciar.Location = new Point(689, 188);
+            btnReiniciar.ForeColor = SystemColors.ActiveCaptionText;
+            btnReiniciar.Location = new Point(702, 134);
             btnReiniciar.Name = "btnReiniciar";
             btnReiniciar.Size = new Size(75, 23);
             btnReiniciar.TabIndex = 3;
@@ -90,6 +95,7 @@
             // 
             // lstHistorial
             // 
+            lstHistorial.BackColor = SystemColors.InactiveCaption;
             lstHistorial.FormattingEnabled = true;
             lstHistorial.ItemHeight = 15;
             lstHistorial.Location = new Point(714, 267);
@@ -97,11 +103,36 @@
             lstHistorial.Size = new Size(250, 499);
             lstHistorial.TabIndex = 4;
             // 
+            // lblMensajeCentral
+            // 
+            lblMensajeCentral.BackColor = Color.Transparent;
+            lblMensajeCentral.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblMensajeCentral.ForeColor = Color.Gold;
+            lblMensajeCentral.Location = new Point(658, 25);
+            lblMensajeCentral.Name = "lblMensajeCentral";
+            lblMensajeCentral.Size = new Size(400, 80);
+            lblMensajeCentral.TabIndex = 0;
+            lblMensajeCentral.Text = "label1";
+            lblMensajeCentral.TextAlign = ContentAlignment.MiddleCenter;
+            lblMensajeCentral.Visible = false;
+            // 
+            // lblCoordenadas
+            // 
+            lblCoordenadas.ForeColor = SystemColors.Window;
+            lblCoordenadas.Location = new Point(702, 224);
+            lblCoordenadas.Name = "lblCoordenadas";
+            lblCoordenadas.Size = new Size(300, 40);
+            lblCoordenadas.TabIndex = 5;
+            lblCoordenadas.Text = "Coordenadas";
+            // 
             // FormDamas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(30, 30, 45);
             ClientSize = new Size(984, 711);
+            Controls.Add(lblCoordenadas);
+            Controls.Add(lblMensajeCentral);
             Controls.Add(lstHistorial);
             Controls.Add(btnReiniciar);
             Controls.Add(lblResultado);
@@ -121,5 +152,7 @@
         private Label lblResultado;
         private Button btnReiniciar;
         private ListBox lstHistorial;
+        private Label lblMensajeCentral;
+        private Label lblCoordenadas;
     }
 }

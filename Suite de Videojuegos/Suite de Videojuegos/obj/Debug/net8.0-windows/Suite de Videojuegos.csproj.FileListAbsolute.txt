@@ -34,3 +34,4 @@ C:\Users\neryp\OneDrive\Documentos\UMG\TERCER SEMESTRE\PROGRAMACIÓN I\Suite de 
 C:\Users\neryp\OneDrive\Documentos\UMG\TERCER SEMESTRE\PROGRAMACIÓN I\Suite de Videojuegos\Suite de Videojuegos\obj\Debug\net8.0-windows\Suite_de_Videojuegos.Forms.FormHIstorial.resources
 C:\Users\neryp\OneDrive\Documentos\UMG\TERCER SEMESTRE\PROGRAMACIÓN I\Suite de Videojuegos\Suite de Videojuegos\obj\Debug\net8.0-windows\Suite de.9A4585D0.Up2Date
 C:\Users\neryp\OneDrive\Documentos\UMG\TERCER SEMESTRE\PROGRAMACIÓN I\Suite de Videojuegos\Suite de Videojuegos\obj\Debug\net8.0-windows\Suite_de_Videojuegos.Forms.FormJugadores.resources
+C:\Users\neryp\OneDrive\Documentos\UMG\TERCER SEMESTRE\PROGRAMACIÓN I\Suite de Videojuegos\Suite de Videojuegos\obj\Debug\net8.0-windows\Suite_de_Videojuegos.Properties.Resources.resources
