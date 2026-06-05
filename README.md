@@ -16,3 +16,25 @@ Además, incorpora estadísticas en tiempo real, historial de juegos y una arqui
 - Registrar partidas y movimientos de los jugadores.
 - Mostrar estadísticas e historial de partidas.
 - Integrar múltiples módulos dentro de una sola aplicación.
+
+Tecnologías Utilizadas
+
+Lenguaje de Programación
+- C#
+- Framework
+- .NET Framework / Windows Forms
+  
+Base de Datos
+- MySQL
+  
+Herramientas de Desarrollo
+- Visual Studio Community
+- MySQL Workbench
+- Git
+- GitHub
+  
+Librerías Utilizadas
+- MySql.Data
+- System.Drawing
+- System.Media
+- Windows Forms
