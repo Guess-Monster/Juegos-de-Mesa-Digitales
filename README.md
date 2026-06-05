@@ -120,6 +120,7 @@ Notas:
 - El proyecto fue desarrollado utilizando Programación Orientada a Objetos (POO), Windows Forms y MySQL como sistema de persistencia de datos.
 
 Integrantes
+
 Nery Mariano Perez Arrue Carnet 0902-25-10109
 Edgar Ismael Peláez Blanco 0902-25-14066
 Mario David Ramirez Pop Carnet 0902-25-14020
