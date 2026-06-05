@@ -1,5 +1,6 @@
 # Juegos-de-Mesa-Digitales
 Definicion del Proyecto
+
 Juegos de mesa digitales es una aplicación de escritorio desarrollada en C# utilizando Windows Forms, que integra dos juegos clásicos: Tic-Tac-Toe (Tres en Raya) y Damas Clásicas.
 
 El sistema fue desarrollado aplicando los principios de Programación Orientada a Objetos (POO), así como la conexión y persistencia de datos mediante una base de datos MySQL.
