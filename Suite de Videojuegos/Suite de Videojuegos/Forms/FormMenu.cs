@@ -64,19 +64,16 @@ namespace Suite_de_Videojuegos
             EstilizarBoton(btnTicTacToe, ColorNormal);
             EstilizarBoton(btnDamas, ColorNormal);
             EstilizarBoton(btnHistorial, ColorNormal);
-            EstilizarBoton(btnBD, ColorNormal);
             EstilizarBoton(btnSalir, ColorSalir);
 
             ActivarHover(btnTicTacToe, ColorNormal, ColorHover);
             ActivarHover(btnDamas, ColorNormal, ColorHover);
             ActivarHover(btnHistorial, ColorNormal, ColorHover);
-            ActivarHover(btnBD, ColorNormal, ColorHover);
             ActivarHover(btnSalir, ColorSalir, ColorSalirHover);
 
             btnTicTacToe.Text = "🎮 TicTacToe";
             btnDamas.Text = "♟️ Damas";
             btnHistorial.Text = "📜 Historial";
-            btnBD.Text = "🗄 Base de Datos";
             btnSalir.Text = "❌ Salir";
         }
 
@@ -375,14 +372,6 @@ namespace Suite_de_Videojuegos
         {
             SystemSounds.Exclamation.Play();
             Application.Exit();
-        }
-
-        private void btnBD_Click(object sender, EventArgs e)
-        {
-            SystemSounds.Asterisk.Play();
-
-            FormConexion ventana = new FormConexion();
-            ventana.Show();
         }
 
         private void btnHistorial_Click(object sender, EventArgs e)

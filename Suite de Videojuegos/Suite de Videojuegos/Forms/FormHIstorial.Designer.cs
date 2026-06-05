@@ -44,9 +44,9 @@
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(368, 369);
+            btnActualizar.Location = new Point(345, 369);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.Size = new Size(142, 23);
             btnActualizar.TabIndex = 1;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;

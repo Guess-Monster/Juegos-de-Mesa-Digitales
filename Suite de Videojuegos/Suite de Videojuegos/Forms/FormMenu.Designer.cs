@@ -34,7 +34,6 @@ namespace Suite_de_Videojuegos
             btnSalir = new Button();
             lblTitulo = new Label();
             btnDamas = new Button();
-            btnBD = new Button();
             btnHistorial = new Button();
             panelSuperior = new Panel();
             picLogo = new PictureBox();
@@ -100,21 +99,6 @@ namespace Suite_de_Videojuegos
             btnDamas.UseVisualStyleBackColor = false;
             btnDamas.Click += btnDamas_Click;
             // 
-            // btnBD
-            // 
-            btnBD.BackColor = Color.FromArgb(52, 152, 219);
-            btnBD.FlatAppearance.BorderSize = 0;
-            btnBD.FlatStyle = FlatStyle.Flat;
-            btnBD.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            btnBD.ForeColor = SystemColors.ButtonHighlight;
-            btnBD.Location = new Point(293, 361);
-            btnBD.Name = "btnBD";
-            btnBD.Size = new Size(84, 36);
-            btnBD.TabIndex = 4;
-            btnBD.Text = "BD";
-            btnBD.UseVisualStyleBackColor = false;
-            btnBD.Click += btnBD_Click;
-            // 
             // btnHistorial
             // 
             btnHistorial.BackColor = Color.FromArgb(52, 152, 219);
@@ -160,7 +144,6 @@ namespace Suite_de_Videojuegos
             Controls.Add(picLogo);
             Controls.Add(panelSuperior);
             Controls.Add(btnHistorial);
-            Controls.Add(btnBD);
             Controls.Add(btnDamas);
             Controls.Add(btnSalir);
             Controls.Add(btnTicTacToe);
@@ -183,7 +166,6 @@ namespace Suite_de_Videojuegos
         private Button btnSalir;
         private Label lblTitulo;
         private Button btnDamas;
-        private Button btnBD;
         private Button btnHistorial;
         private Panel panelSuperior;
         private PictureBox picLogo;

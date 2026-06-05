@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kuyjbRRmsXM=",
+  "dgSpecHash": "BUP4MAxQd5w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\neryp\\OneDrive\\Documentos\\UMG\\TERCER SEMESTRE\\PROGRAMACIÓN I\\Suite de Videojuegos\\Suite de Videojuegos\\Suite de Videojuegos.csproj",
+  "projectFilePath": "C:\\Users\\neryp\\OneDrive\\Documentos\\git\\Juegos-de-Mesa-Digitales\\Suite de Videojuegos\\Suite de Videojuegos\\Suite de Videojuegos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neryp\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\neryp\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
