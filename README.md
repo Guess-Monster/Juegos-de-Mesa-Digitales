@@ -15,7 +15,6 @@ Además, incorpora estadísticas en tiempo real, historial de juegos y una arqui
 - Desarrollar una interfaz gráfica funcional utilizando Windows Forms.
 - Registrar partidas y movimientos de los jugadores.
 - Mostrar estadísticas e historial de partidas.
-- Integrar múltiples módulos dentro de una sola aplicación.
 
 Tecnologías Utilizadas
 
@@ -53,13 +52,9 @@ Antes de ejecutar la aplicación es necesario contar con:
 Instalación y Ejecución
 
 1. Clonar el repositorio desde GitHub
-
 2. Abrir la solución del proyecto en Visual Studio.
-
 3. Crear una base de datos MySQL para el proyecto.
-
 4. Ejecutar los scripts SQL correspondientes para crear las tablas necesarias.
-
 5. Configurar la cadena de conexión en el archivo (ConexionBD.cs)
 
 Ejemplo:
@@ -67,9 +62,7 @@ private string cadenaConexion = "server=localhost;database=suite_videojuegos;use
 Modificar los valores según la configuración local de MySQL.
 
 6. Restaurar los paquetes NuGet necesarios para el proyecto.
-
 7. Compilar la solución desde Visual Studio.
-
 8. Ejecutar la aplicación presionando F5
 o seleccionando:
 
@@ -125,3 +118,8 @@ Notas:
 - Si la base de datos no está disponible, algunas funcionalidades relacionadas con el historial y estadísticas pueden no funcionar correctamente.
 - Se recomienda ejecutar MySQL Server antes de iniciar la aplicación.
 - El proyecto fue desarrollado utilizando Programación Orientada a Objetos (POO), Windows Forms y MySQL como sistema de persistencia de datos.
+
+Integrantes
+Nery Mariano Perez Arrue Carnet 0902-25-10109
+Edgar Ismael Peláez Blanco 0902-25-14066
+Mario David Ramirez Pop Carnet 0902-25-14020
